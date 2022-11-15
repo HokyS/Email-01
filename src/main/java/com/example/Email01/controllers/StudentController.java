@@ -1,6 +1,9 @@
 package com.example.Email01.controllers;
 
+import com.example.Email01.DTO.NotificationDTO;
 import com.example.Email01.entities.Student;
+import com.example.Email01.services.EmailService;
+import com.example.Email01.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
